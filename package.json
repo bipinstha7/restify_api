@@ -1,0 +1,26 @@
+{
+  "name": "restify_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bipinstha7/restify_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bipinstha7/restify_api/issues"
+  },
+  "homepage": "https://github.com/bipinstha7/restify_api#readme",
+  "dependencies": {
+    "mongoose": "^5.3.12",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.2.3",
+    "restify-errors": "^6.1.1"
+  }
+}
