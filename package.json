@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/bipinstha7/restify_api#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.3.12",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^7.2.3",
-    "restify-errors": "^6.1.1"
+    "restify-errors": "^6.1.1",
+    "restify-jwt-community": "^1.0.8"
   }
 }
