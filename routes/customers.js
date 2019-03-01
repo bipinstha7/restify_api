@@ -23,7 +23,7 @@ module.exports = server => {
 			return next(new errors.InvalidContentError("Expects 'application/json'"))
 		}
 
-		const { name, email, balance } = req.body
+		// const { name, email, balance } = req.body
 
 		// const customer = new Customer({
 		//     name,
